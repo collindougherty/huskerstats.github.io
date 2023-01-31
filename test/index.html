@@ -10,20 +10,20 @@
     <meta property="og:type" content="article">
 
     
-    <meta property="og:image" content="https://huskerstats.com//img/2D39843A-F7ED-4782-9B09-399FDA05FFB2_1_201_a.jpeg">
-    <meta property="twitter:image" content="https://huskerstats.com//img/2D39843A-F7ED-4782-9B09-399FDA05FFB2_1_201_a.jpeg" />
+    <meta property="og:image" content="/img/original.jpg.avif">
+    <meta property="twitter:image" content="/img/original.jpg.avif" />
     
 
     
-    <meta name="title" content="" />
-    <meta property="og:title" content="" />
-    <meta property="twitter:title" content="" />
+    <meta name="title" content="Test Post" />
+    <meta property="og:title" content="Test Post" />
+    <meta property="twitter:title" content="Test Post" />
     
 
     
-    <meta name="description" content="test description">
-    <meta property="og:description" content="test description" />
-    <meta property="twitter:description" content="test description" />
+    <meta name="description" content="Description">
+    <meta property="og:description" content="Description" />
+    <meta property="twitter:description" content="Description" />
     
 
     
@@ -34,9 +34,9 @@
     <meta name="keyword"  content="test keyword here">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Searches | Huskers by the Numbers | Husker Stats</title>
+    <title>Test Post | Huskers by the Numbers | Husker Stats</title>
 
-    <link rel="canonical" href="/search/">
+    <link rel="canonical" href="/test/">
 
     
     
@@ -151,14 +151,37 @@
 
 
 
-<header class="intro-header" style="background-image: url('/img/2D39843A-F7ED-4782-9B09-399FDA05FFB2_1_201_a.jpeg')">
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/img/original.jpg.avif')
+    }
+</style>
+
+<header class="intro-header" >
+
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
-                <div class="site-heading">
-                    <h1>Huskers by the Numbers </h1>
-                    
-		    <span class="subheading">Your home for advanced stats on the Big Red.</span>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                    </div>
+                    <h1>Test Post</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                Collin Dougherty
+                             
+                            on 
+                            Tuesday, January 31, 2023
+                            
+                            
+                            
+                            
+                    </span>
                 </div>
             </div>
         </div>
@@ -167,223 +190,113 @@
 
 
 
-<div class="container">
-    <div class="row">
-        
-        
-   	    <div class="
-            col-lg-8 col-lg-offset-1
-            col-md-8 col-md-offset-1
-            col-sm-12
-            col-xs-12
-            post-container
-        ">
-        
+
+<article>
+    <div class="container">
+        <div class="row">
+
             
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
 
-<div id="search-searchbar"></div>
- <div class="post-list" id="search-hits">
- </div>
-
-<script>
-const search = instantsearch({
-  appId: '',
-  indexName: '',
-  apiKey: ''
-});
-
-const hitTemplate = function(hit) {
+                
+                
 
 
-  let date = '';
-  if (hit.date) {
-    date = moment.unix(hit.date).format('MMM D, YYYY');
-  }
-  let url = `${hit.url}#${hit.anchor}`;
-  const title = hit._highlightResult.title.value;
-
-  let breadcrumbs = '';
-  if (hit._highlightResult.headings) {
-    breadcrumbs = hit._highlightResult.headings.map(match => {
-      return `<span class="post-breadcrumb">${match.value}</span>`
-    }).join(' > ')
-  }
-
-  let content = "" ; 
-  if (hit._highlightResult.content){
-      content = hit._highlightResult.content.value;
-  }
-  else{
-      content = hit.summary;
-  }
+<p>This is an <a href="http://rmarkdown.rstudio.com">R Markdown</a> Notebook. When you execute code within the notebook, the results appear beneath the code.</p>
+<p>Try executing this chunk by clicking the <em>Run</em> button within the chunk or by placing your cursor inside it and pressing <em>Cmd+Shift+Enter</em>.</p>
+<pre class="r"><code>plot(cars)</code></pre>
+<p><img src="/post/test_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<p>Add a new chunk by clicking the <em>Insert Chunk</em> button on the toolbar or by pressing <em>Cmd+Option+I</em>.</p>
+<p>When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the <em>Preview</em> button or press <em>Cmd+Shift+K</em> to preview the HTML file).</p>
+<p>The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike <em>Knit</em>, <em>Preview</em> does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.</p>
 
 
-  return `
-    <div class="post-item">
-      <span class="post-meta">${date}</span>
-      <h2><a class="post-link" href="${url}">${title}</a></h2>
-      <a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>
-      <div class="post-snippet">${content}</div>
-    </div>
-  `;
-}
-
-
-search.addWidget(
-  instantsearch.widgets.searchBox({
-    container: '#search-searchbar',
-    placeholder: 'Search into posts...',
-    poweredBy: true // This is required if you're on the free Community plan
-  })
-);
-
-search.addWidget(
-  instantsearch.widgets.hits({
-    container: '#search-hits',
-    templates: {
-      item: hitTemplate
-    }
-  })
-);
-
-search.start();
-</script>
-
-<style>
-.ais-search-box {
-  max-width: 100%;
-  margin-bottom: 15px;
-}
-.post-item {
-  margin-bottom: 30px;
-}
-.post-link .ais-Highlight {
-  color: #111;
-  font-style: normal;
-  text-decoration: underline;
-}
-.post-breadcrumbs {
-  color: #424242;
-  display: block;
-}
-.post-breadcrumb {
-  font-size: 18px;
-  color: #424242;
-}
-.post-breadcrumb .ais-Highlight {
-  font-weight: bold;
-  font-style: normal;
-}
-.post-snippet .ais-Highlight {
-  color: #2a7ae2;
-  font-style: normal;
-  font-weight: bold;
-}
-.post-snippet img {
-  display: none;
-}
-</style>
-
-        
-       	</div>
-        
-
-<div class="
-    col-lg-3 col-lg-offset-0
-    col-md-3 col-md-offset-0
-    col-sm-12
-    col-xs-12
-    sidebar-container
-">
+                
+                
+<div class="entry-shang text-center">
     
+	    <p>「真诚赞赏，手留余香」</p>
 	
-    <section class="visible-md visible-lg">
-	
-        <div class="short-about">
-            
-            <a href="/about">
-               <img src="/img/1650493909206.jpg" alt="avatar" style="cursor: pointer" />
-            </a>
-            
-            
-                <p>Collin Dougherty is a M.S. mathematics student at UNO and works for UNMC doing data analysis for cancer research. He has several years of experience working with data on behalf of various Huskers coaching staffs.</p>
-            
-           
-           <ul class="list-inline">
-               
-               <li>
-                   <a href="mailto:collindougherty.github.iol@gmail.com">
-                      <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle fa-stack-2x"></i>
-                          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                      </span>
-                   </a>
-               </li>
-               
-               
-               <li>
-                   <a href="https://twitter.com/collind0ugherty">
-                       <span class="fa-stack fa-lg">
-                           <i class="fas fa-circle fa-stack-2x"></i>
-                           <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                       </span>
-                   </a>
-               </li>
-               
-               
-               
-               
-               
-               
-               <li>
-                   <a target="_blank" href="https://github.com/collindougherty">
-                       <span class="fa-stack fa-lg">
-                           <i class="fas fa-circle fa-stack-2x"></i>
-                           <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                       </span>
-                   </a>
-               </li>
-               
-               
-               
-               
-               <li>
-                   <a target="_blank" href="https://www.linkedin.com/in/collin-dougherty/">
-                       <span class="fa-stack fa-lg">
-                           <i class="fas fa-circle fa-stack-2x"></i>
-                           <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-                       </span>
-                   </a>
-               </li>
-               
-               
-               
-            
-            
-               
-               
-               
-               
-                </ul>
-            </div>
-    </section>
-	
-    
-    
-    
-    
-
-    
-    
-    
+	<button class="zs show-zs btn btn-bred">赞赏支持</button>
 </div>
-
+<div class="zs-modal-bg"></div>
+<div class="zs-modal-box">
+	<div class="zs-modal-head">
+		<button type="button" class="close">×</button>
+		<span class="author"><a href="https://huskerstats.com"><img src="/img/favicon.png" />Huskers by the Numbers</a></span>
+        
+	        <p class="tip"><i></i><span>真诚赞赏，手留余香</span></p>
+		
+ 
+	</div>
+	<div class="zs-modal-body">
+		<div class="zs-modal-btns">
+			<button class="btn btn-blink" data-num="2">2元</button>
+			<button class="btn btn-blink" data-num="5">5元</button>
+			<button class="btn btn-blink" data-num="10">10元</button>
+			<button class="btn btn-blink" data-num="50">50元</button>
+			<button class="btn btn-blink" data-num="100">100元</button>
+			<button class="btn btn-blink" data-num="1">任意金额</button>
+		</div>
+		<div class="zs-modal-pay">
+			<button class="btn btn-bred" id="pay-text">2元</button>
+			<p>使用<span id="pay-type">微信</span>扫描二维码完成支付</p>
+			<img src="/img/reward/wechat-2.png"  id="pay-image"/>
+		</div>
+	</div>
+	<div class="zs-modal-footer">
+		<label><input type="radio" name="zs-type" value="wechat" class="zs-type" checked="checked"><span ><span class="zs-wechat"><img src="/img/reward/wechat-btn.png"/></span></label>
+		<label><input type="radio" name="zs-type" value="alipay" class="zs-type" class="zs-alipay"><img src="/img/reward/alipay-btn.png"/></span></label>
 	</div>
 </div>
+<script type="text/javascript" src="/js/reward.js"></script>
+
+                
+
+                
+
+                
+
+
+
+            </div>
+
+            
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+
+                
+                
+            </div>
+        </div>
+    </div>
+</article>
+
 
 
 
@@ -451,7 +364,7 @@ search.start();
             
            
                    <li>
-                       <a href='/search/index.xml' rel="alternate" type="application/rss+xml" title="Huskers by the Numbers" >
+                       <a href='' rel="alternate" type="application/rss+xml" title="Huskers by the Numbers" >
                            <span class="fa-stack fa-lg">
                                <i class="fas fa-circle fa-stack-2x"></i>
                                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>

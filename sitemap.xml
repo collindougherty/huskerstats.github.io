@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://huskerstats.com/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://huskerstats.com/post/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://huskerstats.com/test/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://huskerstats.com/about/</loc>
   </url><url>
     <loc>https://huskerstats.com/notes/</loc>
@@ -9,8 +18,6 @@
     <loc>https://huskerstats.com/search/placeholder/</loc>
   </url><url>
     <loc>https://huskerstats.com/categories/</loc>
-  </url><url>
-    <loc>https://huskerstats.com/</loc>
   </url><url>
     <loc>https://huskerstats.com/archive/</loc>
   </url><url>
