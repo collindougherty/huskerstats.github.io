@@ -1,0 +1,14 @@
+---
+URL: /hello-world
+author: Collin Dougherty
+date: "2023-01-30"
+image: img/original.jpg.avif
+layout: post
+subtitle: Hello World, Hello Blog
+title: Welcome to Huskers by the Numbers
+---
+
+> “Yeah It's on. ”
+
+
+## Hello World!

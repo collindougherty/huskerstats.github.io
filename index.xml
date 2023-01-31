@@ -5,18 +5,7 @@
     <link>https://huskerstats.com/</link>
     <description>Recent content on Huskers by the Numbers</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://huskerstats.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Welcome to Huskers by the Numbers</title>
-      <link>https://huskerstats.com/hello-world/</link>
-      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://huskerstats.com/hello-world/</guid>
-      <description> “Yeah It&amp;rsquo;s on. ”
-Hello World! </description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://huskerstats.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://huskerstats.com/about/</link>
