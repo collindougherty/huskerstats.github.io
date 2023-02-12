@@ -5,7 +5,7 @@ description: "Never miss a Huskers tweet again"
 excerpt: "Excerpt"
 date:    2023-02-12
 author: "Collin Dougherty"
-image: "/img/robots.jpg"
+image: "/img/robots.jpeg"
 published: true 
 #tags:
 #    - 
