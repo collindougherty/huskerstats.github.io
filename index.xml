@@ -6,17 +6,16 @@
     <description>Recent content on Huskers by the Numbers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://huskerstats.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://huskerstats.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test Post</title>
-      <link>https://huskerstats.com/test/</link>
-      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      <title>HuskerBot Beta is Now Live</title>
+      <link>https://huskerstats.com/huskerbot/</link>
+      <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://huskerstats.com/test/</guid>
-      <description>This is an R Markdown Notebook. When you execute code within the notebook, the results appear beneath the code.
-Try executing this chunk by clicking the Run button within the chunk or by placing your cursor inside it and pressing Cmd+Shift+Enter.
-plot(cars) Add a new chunk by clicking the Insert Chunk button on the toolbar or by pressing Cmd+Option+I.
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the Preview button or press Cmd+Shift+K to preview the HTML file).</description>
+      <guid>https://huskerstats.com/huskerbot/</guid>
+      <description>@Husker_Bot is now live. The bot aggregates from sources across twitter to deliver all the Husker content you could ever dream of, as it’s happening.
+The beta version is focused on live content curation. Later iterations will include new features such as in-game statistics and live scores.
+Feel free to DM me @collind0ugherty with suggestions for how to improve HuskerBot.</description>
     </item>
     
     <item>

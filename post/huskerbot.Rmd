@@ -1,0 +1,22 @@
+---
+layout:     post
+title:      "HuskerBot Beta is Now Live"
+description: "Never miss a Huskers tweet again"
+excerpt: "Excerpt"
+date:    2023-02-12
+author: "Collin Dougherty"
+image: "/img/robots.jpg"
+published: true 
+#tags:
+#    - 
+URL: "huskerbot"
+#categories: [ "Tips" ]    
+---
+
+[@Husker_Bot](https://twitter.com/Husker_Bot) is now live. The bot aggregates from sources across twitter to deliver all the Husker content you could ever dream of, as it's happening. 
+
+The beta version is focused on live content curation. Later iterations will include new features such as in-game statistics and live scores.
+
+Feel free to DM me [@collind0ugherty](https://twitter.com/CollinD0ugherty) with suggestions for how to improve HuskerBot. 
+
+
