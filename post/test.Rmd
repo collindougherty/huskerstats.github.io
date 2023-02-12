@@ -1,29 +1,22 @@
 ---
 layout:     post
-title:      "Test Post"
-description: "Description"
+title:      "HuskerBot Beta is Now Live"
+description: "Never miss a Huskers tweet again"
 excerpt: "Excerpt"
-date:    2023-01-31
+date:    2023-02-12
 author: "Collin Dougherty"
-image: "/img/original.jpg.avif"
+image: "/img/robots.jpg"
 published: true 
 #tags:
 #    - 
-URL: "test/"
+URL: "huskerbot"
 #categories: [ "Tips" ]    
 ---
 
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+[@Husker_Bot](https://twitter.com/Husker_Bot) is now live. The bot aggregates from sources across twitter to deliver all the Husker content you could ever dream of, as it's happening. 
 
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+The beta version is focused on live content curation. Later iterations will include new features such as in-game statistics and live scores.
 
-```{r}
-plot(cars)
-```
+Feel free to DM me [@collind0ugherty](https://twitter.com/CollinD0ugherty) with suggestions for how to improve HuskerBot. 
 
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
-
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
-
-The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
 
